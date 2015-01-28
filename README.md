@@ -144,8 +144,6 @@ request: username, target, msg
 response: code(0 => ok, 1 => username/target not exist, 2 => not login)
 
 
-### 软件锁
-I don't know what is this
 
 ### 安全聊天
 此功能只需在客户端实现，在聊天界面会有遮罩层阻挡
