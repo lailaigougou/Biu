@@ -11,7 +11,7 @@ Biu
 
 *先完成需要两端通信的任务*
 
-1. 找适合的云服务器(不一定是下面介绍的，能用就行)，架设好平台,创建所有空功能。根据下面的通信细节，所有功能不实现细节，直接返回基本数据。
+1. 找适合的云服务器，架设好平台,创建所有空功能。根据下面的通信细节，所有功能不实现细节，直接返回基本数据。
 
 2. 优先实现注册功能, 登陆功能
 
@@ -19,7 +19,6 @@ Biu
 
 4. 聊天
 
-…
 
 *所有功能的实现细节在下面有详细描述*
 
@@ -43,10 +42,7 @@ Biu
 * [服务端python SDK下载](https://github.com/jpush/jpush-api-python-client)
 * [客户端Android SDK集成指南](http://doc.jpush.cn/pages/viewpage.action?pageId=557214)
 
-###2.服务器(请服务端众记得先搞定这个)
-个人比较熟悉[京东云擎](http://jae.jd.com),免费可用
-
-另一个免费的是[新浪云SAE](http://sae.sina.com/cn)，也是免费不过要实名申请
+###2.服务器
 
 ###3.Python [Django框架](https://www.djangoproject.com)
 
@@ -129,7 +125,7 @@ response: a json list with following format
 
 ### 聊天
 采用JPush提供的推送服务实现聊天，轻松简便
-![pushtalk](https://raw.githubusercontent.com/sysu2012zzp/Biu/master/pushtalk_architecture.png)
+![pushtalk](https://raw.githubusercontent.com/lailaigougou/Biu/master/pushtalk_architecture.png)
 
 图片解析：当用户A对用户B发出一句话时，用户A向服务器发出请求，服务器向极光推送发出推送请求，由极光负责把信息推送至Ｂ
 
